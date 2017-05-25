@@ -1,0 +1,23 @@
+
+/**
+ * Write a description of class main here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class main
+{
+    public static void main(String[] args) {
+        for(int i = 0;i<=100;i++) {
+            if(i%3==0 && i%5==0) {
+                System.out.println(i+" - FizzBuzz!");
+            } else if (i%3==0) {
+                System.out.println(i+" - Fizz!");
+            } else if (i%5==0) {
+                System.out.println(i+" - Buzz!");
+            } else {
+                System.out.println(i);
+            }            
+        }
+    }
+}

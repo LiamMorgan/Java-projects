@@ -1,0 +1,1 @@
+The user must press a button when they think ten seconds has passed, and they are told how far off they are from being right.
